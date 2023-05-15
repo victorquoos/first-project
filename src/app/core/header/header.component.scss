@@ -1,0 +1,19 @@
+.site-header {
+  border-bottom: 1px solid #ccc; //adiciona uma borda em baixo
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-size: 1.5em;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  ul {
+    margin: 0; //alinha com H1
+  }
+  li {
+    display: inline-block; //mostra os itens horizontalmente
+    margin: 1.4em 1em 1em 1em; //espaçamento dos itens
+  }
+}
