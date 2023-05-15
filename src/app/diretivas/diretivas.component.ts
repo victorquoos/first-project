@@ -6,14 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./diretivas.component.scss'],
 })
 export class DiretivasComponent {
-  cursos: string[] = ['Angular', 'React', 'Vue'];
-  mostrarCursos: boolean = false;
+  meuFavorito: boolean = false;
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  onMostrarCursos() {
-    this.mostrarCursos = !this.mostrarCursos;
+  onClick() {
+    this.meuFavorito = !this.meuFavorito;
   }
 }
