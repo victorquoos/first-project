@@ -6,3 +6,10 @@
   <p>1 + 1 é igual: {{1 + 1}}</p>
   <p>1 + 1 não é igual: {{1 + 1 + getValor()}}</p>
 </section>
+<br>
+<section>
+  <h3>Propriety Binding</h3>
+  <img [src]="url" alt="Imagem" width="200">
+  <p [hidden]="esconderTexto">Olá mundo</p>
+  <p [hidden]="!esconderTexto">Olá mundo de novo</p>
+</section>
