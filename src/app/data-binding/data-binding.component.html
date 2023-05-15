@@ -24,3 +24,11 @@
   <span (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">Passe o mouse</span>
   <p>Status do mouse: {{isMouseOver}}</p>
 </section>
+<br>
+<section>
+  <h3>Two way data binding</h3>
+  <br>
+  <input type="text" [(ngModel)]="nome">
+  <input type="text" [(ngModel)]="nome">
+  <p>Nome digitado: {{nome}}</p>
+</section>
